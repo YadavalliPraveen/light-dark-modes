@@ -1,0 +1,43 @@
+.background-container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-card-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+.light-card-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+.mode-button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
